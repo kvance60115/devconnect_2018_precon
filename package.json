@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha"
+  },
   "keywords": [],
   "author": "",
   "license": "Apache 2.0",
@@ -22,6 +24,7 @@
     "body-parser": "^1.18.2",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
+    "js-beautify": "^1.8.8",
     "js-yaml": "^3.10.0",
     "marc4js": "0.0.9",
     "nodeauth": "git+https://github.com/OCLC-Developer-Network/oclc-auth-node.git",
