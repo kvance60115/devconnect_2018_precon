@@ -5,6 +5,9 @@ var http = require('http');
 
 const BibError = require('../src/BibError');
 const error_response = fs.readFileSync(require('path').resolve(__dirname, './mocks/errorResponse.xml')).toString();
+
+const error_response_403 = fs.readFileSync(require('path').resolve(__dirname, './mocks/errorResponse_403.xml')).toString();
+const error_response_404 = fs.readFileSync(require('path').resolve(__dirname, './mocks/errorResponse_404.xml')).toString();
 const Bib = require('../src/Bib');
 
 const error_mock = require('./mocks/errorMock')

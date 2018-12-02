@@ -5,7 +5,7 @@ const xpath = require('xpath');
 const dom = require('xmldom').DOMParser;
 const marc4js = require('marc4js');
 
-const Bib = require('../src/bib');
+const Bib = require('../src/Bib');
 const bib_response = fs.readFileSync(require('path').resolve(__dirname, './mocks/bibResponse.xml')).toString();
 
 describe('Create Bib test', () => {
